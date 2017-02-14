@@ -1,1 +1,1 @@
-https://dashboard.heroku.com/apps/peaceful-chamber-59786
+https://peaceful-chamber-59786.herokuapp.com/
