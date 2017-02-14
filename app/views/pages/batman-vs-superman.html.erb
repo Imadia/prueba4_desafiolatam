@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 <div class="row">
   <div class="col-md-6">
+	<a href="<%= pages_batman_path %>"><h2>BATMAN</h2></a>
 	<img src="<%= asset_path 'batman2.jpg'%>" class="img-responsive">
-	<a href="<%= pages_batman_path %>">BATMAN</a>
 	
 
 	<form action="<%= pages_votos_batman_path %>" method="POST" autocomplete="off">
@@ -15,8 +15,8 @@
 	</form>
   </div>
   <div class="col-md-6">
+	<a href="<%= pages_superman_path %>"><h2>SUPERMAN</h2></a>
 	<img src="<%= asset_path 'superman2.jpg'%>" class="img-responsive">
-	<a href="<%= pages_superman_path %>">SUPERMAN</a>
 
 	<form action="<%= pages_votos_superman_path %>" method="POST" autocomplete="off">
 		<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
