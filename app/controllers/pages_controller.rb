@@ -14,8 +14,4 @@ class PagesController < ApplicationController
  	redirect_to pages_batman_vs_superman_path, notice: "El nombre #{params[:a]} ha sido guardado"
   end
 
-  def votos
-  	@b = VotosBatman.count
-  	@s = VotosSuperman.count  	 	
-  end
 end
